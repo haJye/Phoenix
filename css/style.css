@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @media (min-width:320px) and (max-width:990px)
 {
@@ -37,4 +37,42 @@
         margin-bottom: 38px;
 
     }
+
+
+main h1 {
+    font-size: 26px;
+    font-family: "Roboto Slab";
+}
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+}
+
+.course {
+    width: 185.92px;
+}
+
+.course .course-inner {
+    background: #fff;
+    width: 185.92px;
+    border-radius: 13.9792px;
+
+}
+
+.course .course-inner img {
+    width: 185.92px;
+    height: 74.56px;
+}
+
+.course .course-inner h2 {
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.course .course-inner p {
+    font-size: 12px;
+    line-height: 130%;
+
 }
