@@ -11,14 +11,15 @@
     .courses {
         display: flex;
         flex-direction: row;
+        justify-content: center;
         font-family: "Roboto";
         flex-wrap: wrap;
-        column-gap: 37px;
-        row-gap: 43px;
     }
     .course {
         width: 399px;
         height: 328px;
+        margin-right: 37px;
+        margin-bottom: 42px;
     }
     .course .course-inner {
         width: 399px;
@@ -60,14 +61,15 @@
     .courses {
         display: flex;
         flex-direction: row;
+        justify-content: center;
         font-family: "Roboto";
         flex-wrap: wrap;
-        column-gap: 21.43px;
-        row-gap: 25px;
     }
     .course {
         width: 231.09px;
         height: 189.97px;
+        margin-right: 21.43px;
+        margin-bottom: 25px;
     }
     .course .course-inner {
         background: #fff;
@@ -111,16 +113,18 @@
         font-family: "Roboto Slab";
         margin-bottom: 35.66px;
     }
+    
     .courses {
         display: flex;
         flex-direction: column;
         font-family: "Roboto";
-        row-gap: 24.16px;
         align-items: center;
     }
+    
     .course {
         width: 185.92px;
         height: 152.84px;
+        margin-bottom: 24.16px;
     }
     
     .course .course-inner {
