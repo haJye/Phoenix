@@ -2,116 +2,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
-@media(min-width:1280px) {
-    main .title {
-        font-size: 55px;
-        font-family: "Roboto Slab";
-        margin-bottom: 119px;
-    }
-    .courses {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        font-family: "Roboto";
-        flex-wrap: wrap;
-    }
-    .course {
-        width: 399px;
-        height: 328px;
-        margin-right: 37px;
-        margin-bottom: 42px;
-    }
-    .course .course-inner {
-        width: 399px;
-        height: 328px;
-        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-        border-radius: 30px;
-    }
-    .course .course-inner .text {
-        margin-left: 10px;
-    }
-
-    .course .course-inner img {
-        width: 399px;
-        height: 160px;
-    }
-    .course .course-inner .text h2 {
-        font-size: 30px;
-        line-height: 39px;
-        margin-top: 3.7px;
-    }
-    
-    .course .course-inner .text p {
-        margin: 0 0 10.72px 0;
-        font-size: 25px;
-        line-height: 32.5px;
-    }
-    .course .course-inner .text .last-h2 {
-        line-height: 29.1px;
-        margin-bottom: 5px;
-    }
-}
-
-@media (min-width:992px) and (max-width:1279px) {
-    main .title {
-        font-size: 32px;
-        font-family: "Roboto Slab";
-        margin-bottom: 109px;
-    }
-    .courses {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        font-family: "Roboto";
-        flex-wrap: wrap;
-    }
-    .course {
-        width: 231.09px;
-        height: 189.97px;
-        margin-right: 21.43px;
-        margin-bottom: 25px;
-    }
-    .course .course-inner {
-        background: #fff;
-        width: 231.09px;
-        height: 189.97px;
-        border-radius: 17.375px;
-        box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
-    }
-    
-    .course .course-inner .text {
-        margin-left: 10px;
-    }
-
-    .course .course-inner img {
-        width: 231.09px;
-        height: 92.67px;
-    }
-    
-    .course .course-inner .text h2 {
-        font-size: 17px;
-        line-height: 22.1px;
-        margin-top: 3.7px;
-    }
-    
-    .course .course-inner .text p {
-        margin: 0 0 10.72px 0;
-        font-size: 14px;
-        line-height: 18.2px;
-    }
-    .course .course-inner .text .last-h2 {
-        line-height: 13.58px;
-        margin-bottom: 5px;
-    }
-}
-
 @media (min-width:320px) and (max-width:991px)
 {
 
-    main .title {
+    body{
+        padding-top:36px;
+        padding-left:35px;
+        font-family: 'Roboto';
+    }
+    .header-logo img{
+        height: 30.75px;
+        width: 52.2px;
+    }
+    .box{
+        display: flex;
+        width: 75%;
+    }
+    .box div{
+        margin-right: 3%;
+    }
+    .header-logo{
+        padding-bottom: 47px;
+    }
+    main h1{
+        width: 75%;
+        font-family: 'Roboto slab';
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 37.51px;
+        margin-top:9px;
+        margin-bottom: 3px;
+    }
+    main p{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .main-photo {
+        margin-left: 45%;
+        margin-bottom: 38px;
+
+    }
+    main h2 {
         font-size: 26px;
         font-family: "Roboto Slab";
-        margin-bottom: 35.66px;
     }
     
     .courses {
@@ -123,41 +56,28 @@
     
     .course {
         width: 185.92px;
-        height: 152.84px;
-        margin-bottom: 24.16px;
     }
     
     .course .course-inner {
         background: #fff;
         width: 185.92px;
-        height: 152.84px;
         border-radius: 13.9792px;
-        box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+    
     }
     
-    .course .course-inner .text {
-        margin-left: 10px;
-    }
-
-    .course .course-inner .text img {
+    .course .course-inner img {
         width: 185.92px;
         height: 74.56px;
     }
     
-    .course .course-inner .text h2 {
+    .course .course-inner h2 {
         font-size: 14px;
-        line-height: 16px;
-        margin-top: 3.7px;
+        line-height: 130%;
     }
     
-    .course .course-inner .text p {
-        margin: 0 0 10.72px 0;
+    .course .course-inner p {
         font-size: 12px;
-        line-height: 16px;
-    }
-    .course .course-inner .text .last-h2 {
-        line-height: 13.58px;
-        margin-bottom: 5px;
+        line-height: 130%;
     }
 }
 @media (min-width:992px) and (max-width:1279px)
