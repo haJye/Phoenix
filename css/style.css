@@ -79,6 +79,45 @@
         font-size: 12px;
         line-height: 130%;
     }
+    .rectangle22 {
+        background-color: #e5e5e5;
+        width: 376px;
+        height: 423px;
+    }
+    .group21 {
+        background-color: white;
+        width: 308px;
+        height: 248px;
+        margin-right: 32px;
+        margin-left:  36px;
+        margin-bottom: 53px;
+        
+    }
+    .rectangle22 h1 {
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 101.38%;
+        margin-left: 36px;
+        margin-right: 83px;
+        padding-top: 42px;
+        margin-bottom: 11px;
+    }
+    .rectangle22 h2 {
+        position: absolute;
+        width: 164.49px;
+        height: 32.73px;
+        left: 200px;
+        top: 2270px;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 101.38%;
+    }
+       
+        
 }
 @media (min-width:992px) and (max-width:1279px)
 {
