@@ -1,1 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@media (min-width: 320px) and (max-width: 991px){
+    body{
+        padding-left: 36px;
+        font-family: 'Roboto';
+     }
+     body .heading{
+        width: 200px;
+        height: 43px;
+     }
+     body .container {
+        display: flex;
+        flex-direction: column;
+     }
+    .container .heading h1{
+        font-size: 26px;
+        font-style: normal;
+        font-weight: bold;
+        font-family: 'Roboto Slab';
+        margin-bottom: 26,36px;
+        color: #000;
+    }
+    .menu{
+        width: 170px;
+    }
+    .menu .m1 h3{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        margin-bottom: -5px;
+        color: #1E4681;
+    }
+    .menu .m2 h3{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        margin-bottom: -5px;
+        color: #1E4681;
+    }
+    .menu .m3 h3{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        margin-bottom: -5px;
+        color: #1E4681;
+    }
+    .menu .m1 p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        margin-bottom: 10px;
+        color: #000;
+    }
+    .menu .m2 p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        margin-bottom: 10px;
+        color: #000;
+    }
+    .menu .m3 p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        margin-bottom: 10px;
+        color: #000;
+    }
+    .article{
+        margin-top:100px;
+        width: 420px;
+    }
+    .mainart ul{
+        padding-left: 20px;
+    }
+}
