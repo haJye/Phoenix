@@ -28,7 +28,8 @@
         border-radius: 30px;
     }
     .course .course-inner .text {
-        margin-left: 20px;
+        margin-left: 21px;
+        margin-top: 7px;
     }
 
     .course .course-inner img {
@@ -38,18 +39,28 @@
     .course .course-inner .text h2 {
         font-size: 30px;
         line-height: 39px;
-        margin-top: 6.7px;
-        font-weight: 700;
+        font-weight: bold;
+        margin: 0;
     }
     
     .course .course-inner .text p {
-        margin: 0 0 10.72px 0;
+        margin: 32px 0 0 0;
         font-size: 25px;
         line-height: 32.5px;
     }
-    .course .course-inner .text .last-h2 {
+
+    .course .course-inner .last-text {
+        margin-top: 12px;
+    }
+    .course .course-inner .last-text h2 {
         line-height: 29.1px;
-        margin-bottom: 5px;
+        margin: 0;
+    }
+
+    .course .course-inner .last-text p {
+        margin: 8px 0 0 0;
+        font-size: 25px;
+        line-height: 32.5px;
     }
 }
 
@@ -148,8 +159,7 @@
     .course .course-inner .text h2 {
         font-size: 14px;
         line-height: 16px;
-        margin-top: 6.7px;
-        font-weight: 700;
+        margin-top: 3.7px;
     }
     
     .course .course-inner .text p {
