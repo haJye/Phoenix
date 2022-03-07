@@ -32,6 +32,9 @@
         margin-bottom: -5px;
         color: #1E4681;
     }
+    .menu .m1{
+        margin-bottom: 25px;
+    }
     .menu .m2 h3{
         font-family: 'Roboto';
         font-style: normal;
@@ -40,6 +43,9 @@
         margin-bottom: -5px;
         color: #1E4681;
     }
+    .menu .m2{
+        margin-bottom: 25px;
+    }
     .menu .m3 h3{
         font-family: 'Roboto';
         font-style: normal;
@@ -47,6 +53,9 @@
         font-size: 12px;
         margin-bottom: -5px;
         color: #1E4681;
+    }
+    .menu .m2{
+        margin-bottom: 25px;
     }
     .menu .m1 p{
         font-family: 'Roboto';
