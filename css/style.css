@@ -101,7 +101,7 @@
         font-family: 'Roboto';
     }
     .heading{
-        margin-left: 36px;
+        margin-left: 55px;
     }
     body .menu{
         display: flex;
@@ -174,4 +174,29 @@
        margin-bottom: 14px;
        color: #000;
 }
+.article{
+       width: 450px;
+       margin-top: 100px;
+}
+.article h1{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 32px;
+    color: #000;
+    margin-left: 55px ;
+    margin-bottom: 30px;
+}
+.article .mainart{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000;
+    margin-left: 20px;
+}
+
+
+
 }
