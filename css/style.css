@@ -9,7 +9,6 @@
         font-family: 'Roboto';
      }
      body .heading{
-        width: 200px;
         height: 43px;
      }
      body .container {
@@ -17,7 +16,7 @@
         flex-direction: column;
      }
     .container .heading h1{
-        font-size: 26px;
+        font-size: 31px;
         font-style: normal;
         font-weight: bold;
         font-family: 'Roboto Slab';
@@ -32,7 +31,7 @@
         font-family: 'Roboto';
         font-style: normal;
         font-weight: bold;
-        font-size: 12px;
+        font-size: 22px;
         margin-bottom: -5px;
         color: #1E4681;
     }
@@ -40,10 +39,11 @@
         margin-bottom: 27px;
     }
     .menu .m2 h3{
+        width: 180px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: bold;
-        font-size: 12px;
+        font-size: 22px;
         margin-bottom: -5px;
         color: #1E4681;
     }
@@ -54,7 +54,7 @@
         font-family: 'Roboto';
         font-style: normal;
         font-weight: bold;
-        font-size: 12px;
+        font-size: 22px;
         margin-bottom: -5px;
         color: #1E4681;
     }
@@ -62,27 +62,30 @@
         margin-bottom: 27px;
     }
     .menu .m1 p{
+        width: 260px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: normal;
-        font-size: 10px;
-        margin-bottom: 10px;
+        font-size: 15px;
+        margin-bottom: 40px;
         color: #000;
     }
     .menu .m2 p{
+        width: 250px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: normal;
-        font-size: 10px;
-        margin-bottom: 10px;
+        font-size: 15px;
+        margin-bottom: 40px;
         color: #000;
     }
     .menu .m3 p{
+        width: 250px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: normal;
-        font-size: 10px;
-        margin-bottom: 10px;
+        font-size: 15px;
+        margin-bottom: 40px;
         color: #000;
     }
     .article{
@@ -91,6 +94,10 @@
     }
     .mainart ul{
         padding-left: 20px;
+        font-size: 15px ;
+    }
+    .article h1{
+        font-size: 31px;
     }
 }
 
@@ -101,7 +108,7 @@
         font-family: 'Roboto';
     }
     .heading{
-        margin-left: 55px;
+        margin-left: 50px;
     }
     body .menu{
         display: flex;
@@ -111,42 +118,42 @@
         font-family: 'Roboto Slab';
         font-style: normal;
         font-weight: bold;
-        font-size: 32px;
-        margin-bottom: 32px;
+        font-size: 42px;
+        margin-bottom: 80px;
     }
     .menu .m1{
-        width: 140px;
+        width: 270px;
         margin-left: 50px;
     }
     .menu .m1 h3{
         font-family: 'Roboto';
         font-style: normal;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 25px;
         margin-bottom: -5px;
         color:#1E4681;
     }
     .menu .m2{
-        width: 170px;
+        width: 310px;
         margin-left: 50px;
     }
     .menu .m2 h3{
         font-family: 'Roboto';
         font-style: normal;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 25px;
         color: #1E4681;
         margin-bottom: -5px;
     }
 
     .menu .m3{
-        width:170px ;
+        width:270px ;
         margin-left: 50px;
     }
     .menu .m3 h3{
         font-family: 'Roboto';
         font-style: normal;
-        font-size: 15px;
+        font-size: 25px;
         margin-bottom: -5px;
         color: #1E4681;
     }
@@ -154,7 +161,7 @@
         font-family: 'Roboto';
         font-style: normal;
         font-weight: normal;
-        font-size: 11px;
+        font-size: 21px;
         margin-bottom: 14px;
         color: #000;
     }
@@ -162,7 +169,7 @@
         font-family: 'Roboto';
         font-style: normal;
         font-weight: normal;
-        font-size: 11px;
+        font-size: 21px;
         margin-bottom: 14px;
         color: #000; 
     }
@@ -170,33 +177,31 @@
        font-family: 'Roboto';
        font-style: normal;
        font-weight: normal;
-       font-size: 11px;
+       font-size: 21px;
        margin-bottom: 14px;
        color: #000;
 }
 .article{
-       width: 450px;
-       margin-top: 100px;
+       width: 640px;
+       margin-top: 200px;
 }
 .article h1{
     font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 42px;
     margin-bottom: 32px;
     color: #000;
-    margin-left: 55px ;
+    margin-left: 50px ;
     margin-bottom: 30px;
 }
 .article .mainart{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 21px;
     color: #000;
     margin-left: 20px;
 }
-
-
 
 }
