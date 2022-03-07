@@ -2,7 +2,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
-@media(min-width:1280px) {
+@media(min-width:1280px)
+{
+    body{
+        padding-left: 121px;
+        padding-top: 21px;
+        font-family: 'Roboto';
+    }
+    .box{
+        display: flex;
+        width: 75%;
+        padding-top: 30px;
+    }
+    .box div{
+        margin-right: 10%;
+    }
+    .header-logo{
+        padding-bottom: 50px;
+    }
+    .header-logo img{
+        width: 112px;
+        height: 66px;
+    }
+    main h1{
+        font-family: 'Roboto Slab';
+        font-size: 80px;
+        line-height: 82px;
+        font-weight: 700;
+        padding-top: 0px;
+    }
+    main p{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        padding-top: 0px;
+    }
+    .main-photo img{
+        position: absolute;
+        width: 304px;
+        height: 356px;
+        left: 890px;
+        top: 223px;
+    }
+    #blue0font img{
+        padding-left: 20%;
+        padding-top: 110px;
+        width: 400.63px;
+        height: 150.02px;
+
+    }
     main .title {
         font-size: 55px;
         font-family: "Roboto Slab";
