@@ -38,7 +38,8 @@
     .course .course-inner .text h2 {
         font-size: 30px;
         line-height: 39px;
-        margin-top: 4.3px;
+        margin-top: 6.7px;
+        font-weight: 700;
     }
     
     .course .course-inner .text p {
@@ -147,7 +148,8 @@
     .course .course-inner .text h2 {
         font-size: 14px;
         line-height: 16px;
-        margin-top: 3.7px;
+        margin-top: 6.7px;
+        font-weight: 700;
     }
     
     .course .course-inner .text p {
