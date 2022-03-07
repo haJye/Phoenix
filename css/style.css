@@ -28,7 +28,7 @@
         border-radius: 30px;
     }
     .course .course-inner .text {
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
     .course .course-inner img {
@@ -38,7 +38,7 @@
     .course .course-inner .text h2 {
         font-size: 30px;
         line-height: 39px;
-        margin-top: 3.7px;
+        margin-top: 4.3px;
     }
     
     .course .course-inner .text p {
