@@ -60,7 +60,7 @@
     }
 
     .course .course-inner .last-text p {
-        margin: 8px 0 0 0;
+        margin: 8px 0 0 -1px;
     }
 }
 
@@ -157,6 +157,7 @@
     }
     .course .course-inner .text {
         margin-left: 10px;
+        margin-top: 3px;
     }
 
     .course .course-inner .text img {
@@ -168,16 +169,24 @@
         font-size: 14px;
         line-height: 16px;
         margin-top: 3.7px;
+        font-weight: 700;
+        margin: 0;
     }
 
     .course .course-inner .text p {
-        margin: 0 0 10.72px 0;
+        margin: 14.72px 0 0 0;
         font-size: 12px;
         line-height: 16px;
     }
-    .course .course-inner .text .last-h2 {
-        line-height: 13.58px;
+    .course .course-inner .last-text {
+        margin-top: 3.5px;
+    }
+    .course .course-inner .last-text h2 {
+        line-height: 14px;
         margin-bottom: 5px;
+    }
+    .course .course-inner .last-text p {
+        margin: -3px 0 0 0;
     }
 }
 
