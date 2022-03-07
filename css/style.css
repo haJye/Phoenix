@@ -95,3 +95,83 @@
 }
 
 
+@media (min-width:992px) and (max-width:1279px) {
+    body {
+        padding-left: 32px;
+        font-family: 'Roboto';
+    }
+    .heading{
+        margin-left: 36px;
+    }
+    body .menu{
+        display: flex;
+       
+    }
+    .container .heading h1{
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+    .menu .m1{
+        width: 140px;
+        margin-left: 50px;
+    }
+    .menu .m1 h3{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        margin-bottom: -5px;
+        color:#1E4681;
+    }
+    .menu .m2{
+        width: 170px;
+        margin-left: 50px;
+    }
+    .menu .m2 h3{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: #1E4681;
+        margin-bottom: -5px;
+    }
+
+    .menu .m3{
+        width:170px ;
+        margin-left: 50px;
+    }
+    .menu .m3 h3{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 15px;
+        margin-bottom: -5px;
+        color: #1E4681;
+    }
+    .menu .m1 p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        margin-bottom: 14px;
+        color: #000;
+    }
+    .menu .m2 p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        margin-bottom: 14px;
+        color: #000; 
+    }
+.menu .m3 p{
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: normal;
+       font-size: 11px;
+       margin-bottom: 14px;
+       color: #000;
+}
+}
