@@ -203,15 +203,96 @@
     color: #000;
     margin-left: 20px;
 }
+}
 @media (min-width:1280px) {
-
 .container .heading h1{
-        font-size: 31px;
+        font-size: 51px;
         font-style: normal;
         font-weight: bold;
         font-family: 'Roboto Slab';
-        margin-bottom: 26,36px;
         color: #000;
+        margin-left: 126px;
 }
+.menu{
+    display: flex;
+    margin-top: 80px;
+}
+.menu .m1 h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: -5px;
+    color: #1E4681;
+}
+.menu .m2 h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: -5px;
+    color: #1E4681;
+}
+.menu .m3 h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: -5px;
+    color: #1E4681;
+}
+.menu .m1{
+    margin-left: 126px;
+}
+.menu .m1 p{
+    width: 190px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 40px;
+    color: #000;
+}
+.menu .m2{
+    margin-left: 126px;
+}
+.menu .m2 p{
+    width: 240px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 40px;
+    color: #000;
+}
+.menu .m3{
+    margin-left: 126px;
+}
+.menu .m3 p{
+    width: 260px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 40px;
+    color: #000;
+}
+.article h1{
+    font-size: 51px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Roboto Slab';
+    margin-top: 100px;
+    color: #000;
+    margin-left: 126px;
+} 
+.article .mainart{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    color: #000;
+    margin-left: 126px;
+    width: 670px;
 }
 }
