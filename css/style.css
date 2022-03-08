@@ -203,5 +203,15 @@
     color: #000;
     margin-left: 20px;
 }
+@media (min-width:1280px) {
 
+.container .heading h1{
+        font-size: 31px;
+        font-style: normal;
+        font-weight: bold;
+        font-family: 'Roboto Slab';
+        margin-bottom: 26,36px;
+        color: #000;
+}
+}
 }
