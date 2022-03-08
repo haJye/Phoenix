@@ -5,7 +5,7 @@
 @media(min-width:1280px)
 {
     body{
-        padding-left: 121px;
+        /* padding-left: 121px; */
         padding-top: 21px;
         font-family: 'Roboto';
     }
