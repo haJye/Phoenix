@@ -46,13 +46,14 @@
     }
     
     .course .course-inner .text p {
-        margin: 32px 0 0 0;
+        margin: 32px 0 0 -2px;
         font-size: 25px;
         line-height: 32.5px;
     }
 
     .course .course-inner .last-text {
         margin-top: 12px;
+        margin-left: 20px;
     }
     .course .course-inner .last-text h2 {
         line-height: 29.1px;
@@ -93,7 +94,7 @@
     
     .course .course-inner .text {
         margin-top: 2.37px;
-        margin-left: 11px;
+        margin-left: 12px;
     }
 
     .course .course-inner img {
@@ -115,6 +116,7 @@
     }
     .course .course-inner .last-text {
         margin-top: 5.5px;
+        margin-left: 11px;
     }
     .course .course-inner .last-text h2 {
         line-height: 16.49px;
@@ -156,7 +158,7 @@
         box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
     }
     .course .course-inner .text {
-        margin-left: 10px;
+        margin-left: 9px;
         margin-top: 3px;
     }
 
@@ -180,13 +182,15 @@
     }
     .course .course-inner .last-text {
         margin-top: 3.5px;
+        margin-left: 10px;
+
     }
     .course .course-inner .last-text h2 {
         line-height: 14px;
         margin-bottom: 5px;
     }
     .course .course-inner .last-text p {
-        margin: -3px 0 0 0;
+        margin: -3px 0 0 -1px;
     }
 }
 
