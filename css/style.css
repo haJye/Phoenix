@@ -3,12 +3,12 @@
 
 
 @media(min-width:1280px) {
+
     main .title {
         font-size: 55px;
         font-family: "Roboto Slab";
         margin-bottom: 119px;
     }
-
     .courses {
         display: flex;
         flex-direction: row;
@@ -17,7 +17,6 @@
         flex-wrap: wrap;
         column-gap: 37px;
         row-gap: 42px;
-
     }
     .course {
         width: 399px;
@@ -33,7 +32,6 @@
         margin-left: 21px;
         margin-top: 7px;
     }
-
     .course .course-inner img {
         width: 399px;
         height: 160px;
@@ -44,13 +42,11 @@
         font-weight: bold;
         margin: 0;
     }
-    
     .course .course-inner .text p {
         margin: 32px 0 0 -2px;
         font-size: 25px;
         line-height: 32.5px;
     }
-
     .course .course-inner .last-text {
         margin-top: 12px;
         margin-left: 20px;
@@ -59,13 +55,14 @@
         line-height: 29.1px;
         margin: 0;
     }
-
     .course .course-inner .last-text p {
         margin: 8px 0 0 -1px;
     }
+
 }
 
 @media (min-width:992px) and (max-width:1279px) {
+
     main .title {
         font-size: 32px;
         font-family: "Roboto Slab";
@@ -91,24 +88,20 @@
         border-radius: 17.375px;
         box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
     }
-    
     .course .course-inner .text {
         margin-top: 2.37px;
         margin-left: 12px;
     }
-
     .course .course-inner img {
         width: 231.09px;
         height: 92.67px;
     }
-    
     .course .course-inner .text h2 {
         font-size: 17px;
         line-height: 22.1px;
         margin: 0;
         font-weight: bold;
     }
-    
     .course .course-inner .text p {
         margin: 21.53px 0 0 0;
         font-size: 14px;
@@ -122,10 +115,10 @@
         line-height: 16.49px;
         margin: 0;
     }
-
     .course .course-inner .last-text p {
         margin: 5px 0 0 0;
     }
+
 }
 
 @media (min-width:320px) and (max-width:991px)
@@ -136,20 +129,17 @@
         font-family: "Roboto Slab";
         margin-bottom: 35.66px;
     }
-    
     .courses {
         display: flex;
         flex-direction: column;
         font-family: "Roboto";
         align-items: center;
     }
-    
     .course {
         width: 185.92px;
         height: 152.84px;
         margin-bottom: 24.16px;
     }
-    
     .course .course-inner {
         background: #fff;
         width: 185.92px;
@@ -161,12 +151,10 @@
         margin-left: 9px;
         margin-top: 3px;
     }
-
-    .course .course-inner .text img {
+    .course .course-inner img {
         width: 185.92px;
         height: 74.56px;
     }
-    
     .course .course-inner .text h2 {
         font-size: 14px;
         line-height: 16px;
@@ -174,7 +162,6 @@
         font-weight: 700;
         margin: 0;
     }
-
     .course .course-inner .text p {
         margin: 14.72px 0 0 0;
         font-size: 12px;
@@ -183,7 +170,6 @@
     .course .course-inner .last-text {
         margin-top: 3.5px;
         margin-left: 10px;
-
     }
     .course .course-inner .last-text h2 {
         line-height: 14px;
@@ -192,5 +178,5 @@
     .course .course-inner .last-text p {
         margin: -3px 0 0 -1px;
     }
-}
 
+}
