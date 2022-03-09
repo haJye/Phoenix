@@ -10,19 +10,22 @@
         margin-bottom: 119px;
         margin-left: 38px;
     }
+ 
     .courses {
+        width: 98%;
         display: flex;
         flex-direction: row;
         font-family: "Roboto";
         justify-content: center;
         flex-wrap: wrap;
-        column-gap: 37px;
+        column-gap: 35px;
         row-gap: 42px;
     }
     .course {
         width: 399px;
         height: 328px;
     }
+
     .course .course-inner {
         width: 399px;
         height: 328px;
