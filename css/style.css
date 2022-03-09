@@ -200,13 +200,46 @@
 
 @media (min-width:320px) and (max-width:991px)
 {
-
-    main .title {
+    body{
+        padding-top:36px;
+        padding-left:35px;
+        font-family: 'Roboto';
+    }
+    .header-logo img{
+        height: 30.75px;
+        width: 52.2px;
+    }
+    .box{
+        display: flex;
+        width: 75%;
+    }
+    .box div{
+        margin-right: 3%;
+    }
+    .header-logo{
+        padding-bottom: 47px;
+    }
+    main h1{
+        width: 75%;
+        font-family: 'Roboto slab';
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 37.51px;
+        margin-top:9px;
+        margin-bottom: 3px;
+    }
+    main p{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .main-photo {
+        margin-left: 45%;
+        margin-bottom: 38px;
+    }
+    main h2 {
         font-size: 26px;
         font-family: "Roboto Slab";
-        margin-bottom: 35.66px;
     }
-    
     .courses {
         display: flex;
         flex-direction: column;
