@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
+@media (min-width: 1026px) and (max-width: 1282px) {
+    .course:nth-child(9) {
+        display: none;
+    }
+}
 @media(min-width:1280px) {
 
     main .title {
@@ -12,7 +16,6 @@
     }
  
     .courses {
-        width: 98%;
         display: flex;
         flex-direction: row;
         font-family: "Roboto";
@@ -86,6 +89,7 @@
         margin-right: 21.43px;
         margin-bottom: 25px;
     }
+
     .course .course-inner {
         background: #fff;
         width: 231.09px;
@@ -145,6 +149,9 @@
         width: 185.92px;
         height: 152.84px;
         margin-bottom: 24.16px;
+    }
+    .course:nth-child(9) {
+        display: none;
     }
     .course .course-inner {
         background: #fff;
