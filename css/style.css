@@ -217,23 +217,7 @@
     display: flex;
     margin-top: 80px;
 }
-.menu .m1 h3{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    margin-bottom: -5px;
-    color: #1E4681;
-}
-.menu .m2 h3{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    margin-bottom: -5px;
-    color: #1E4681;
-}
-.menu .m3 h3{
+.menu  h3{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
@@ -295,4 +279,43 @@
     margin-left: 126px;
     width: 670px;
 }
+}
+
+footer{
+    background-color: #000;
+    height: 390px;
+    width: 100%;
+}
+
+
+.foot-menu{
+    position: relative; 
+    padding: 50px;
+}
+
+ .contact{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+.num img:first-child{
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.email{
+    margin-top: 15px;
+}
+.contact .email .env{
+    margin-right: 10px;
+    margin-top: 3px ; 
+} 
+.copyright{
+    position: absolute;
+    top: 300px;
+
+}
+
+.media{
+    display: ;
+    margin-top: 24px;
 }
