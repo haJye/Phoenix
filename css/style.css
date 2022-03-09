@@ -139,6 +139,10 @@
         margin-right: 4%;
         font-size: 12px;
     }
+    .box img{
+        width: 13px;
+        height: 12px;
+    }
     main h1{
         font-size: 46px;
         line-height: 47px;
@@ -163,6 +167,10 @@
     #blue0font{
         padding-top:8%;
         padding-left: 23%;
+    }
+    #blue0font img {
+        width: 280px;
+        height: 115px;
     }
     main .title {
         font-size: 32px;
@@ -244,6 +252,10 @@
         margin-right: 3%;
         font-size: 10px;
     }
+    .box img{
+        width: 11px;
+        height: 10px;
+    }
     .header-logo{
         padding-bottom: 47px;
     }
@@ -264,9 +276,17 @@
         margin-left: 45%;
         margin-bottom: 38px;
     }
+    .main-photo img{
+        width: 142px;
+        height: 175px;
+    }
     main h2 {
         font-size: 26px;
         font-family: "Roboto Slab";
+    }
+    #blue0font img{
+        width: 225px;
+        height: 94px;
     }
     .courses {
         display: flex;
