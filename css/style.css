@@ -929,9 +929,7 @@
     }
     .info_p2{
         display: flex;
-        flex-wrap: wrap;
-        /* nese */
-        
+        flex-wrap: wrap;     
     }
     .info_time{
         align-items: flex-start;
