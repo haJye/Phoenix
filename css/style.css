@@ -662,6 +662,13 @@
         width: 11px;
         height: 10px;
     }
+    .back-photo1{
+        position: absolute;
+        width: 127.68px;
+        height: 19.1px;
+        left: 215px;
+        top: 410px;
+    }
     .header-logo{
         padding-bottom: 47px;
     }
@@ -678,17 +685,20 @@
         font-size: 10px;
         line-height: 15px;
     }
-    .main-photo {
-        margin-left: 45%;
-        margin-bottom: 38px;
-    }
     .main-photo img{
-        width: 142px;
-        height: 175px;
+        position: absolute;
+        width: 141.66px;
+        height: 165.89px;
+        left: 201px;
+        top: 254px
     }
     main h2 {
         font-size: 26px;
         font-family: "Roboto Slab";
+    }
+    #blue0font{
+        padding-top: 180px;
+        padding-left: 30px;
     }
     #blue0font img{
         width: 225px;
@@ -696,11 +706,11 @@
     }
     body .heading{
         height: 43px;
-     }
-     body .container {
+    }
+    body .container {
         display: flex;
         flex-direction: column;
-     }
+    }
     .container .heading h1{
         font-size: 31px;
         font-style: normal;
