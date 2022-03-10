@@ -913,9 +913,7 @@
     }
     .info_p2{
         display: flex;
-        flex-wrap: wrap;
-        
-        
+        flex-wrap: wrap;        
     }
     .info_time{
         align-items: flex-start;
