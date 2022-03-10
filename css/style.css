@@ -217,7 +217,7 @@
     .info_p1{
         display:flex;
         justify-content: space-between;
-        align-items:center;git 
+        align-items:center;
     }
     .info_text{
         
@@ -915,7 +915,7 @@
     .info_p2{
         display: flex;
         flex-wrap: wrap;
-        
+        /* nese */
         
     }
     .info_time{
