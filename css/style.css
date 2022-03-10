@@ -203,7 +203,6 @@
     .course .course-inner .last-text p {
         margin: 8px 0 0 -1px;
     }
-
 }
 
 @media (min-width:992px) and (max-width:1279px) 
@@ -615,4 +614,69 @@
     .course .course-inner .last-text p {
         margin: -3px 0 0 -1px;
     }
+    .rectangle22 {
+        background-color: #e5e5e5;
+        width: 376px;
+        height: 423px;
+        
+    }
+    .group21 {
+        
+        width: 308px;
+        height: 248px;
+        background-color: white;
+        padding-top: 11px;
+        padding-left: 21px;
+        margin-left: 36px;
+        margin-right: 32px;
+        border-radius: 15px;
+        margin-bottom: 52px;
+
+    }
+  
+    .rectangle22 h1 {
+        width:257px;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        margin-left: 36px;
+        margin-right: 83px;
+        padding-top: 42px;
+        margin-bottom: 11px;
+    }
+    .ekaterina{
+        display: flex;
+    }
+    .ekaterina author {
+        position: relative;
+        top: 20px;
+        left: 13.63px;
+        font-family: Roboto Slab;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 800;
+    
+      
+        
+    }
+    .girl {
+        height: 84px;
+        width: 80px;
+        position: relative;
+        top: 0px;
+
+   }
+     .fb {
+        width:14.91px;
+        height:17.2px;
+        position: relative;
+        top: 55px;
+        right: 136px;
+
+     }  
+        .group21 p {
+            width: 266px;
+            height: 118px;
+        }
 }
