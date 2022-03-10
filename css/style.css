@@ -318,6 +318,7 @@
         top: 50px;
         right: 10%;
     }
+    /* 
     .num img:first-child{
         margin-right: 10px;
         margin-top: 3px;
@@ -328,12 +329,13 @@
     .contact .email .env{
         margin-right: 10px;
         margin-bottom: 7px ; 
-    } 
+    } */
+  
     }
     @media (min-width:992px) and (max-width:1279px) {
         footer{
             background-color: #000;
-            height: 225.88px;
+            height: 400px;
             width: 100%;
         }
         
@@ -367,6 +369,7 @@
             top: 50px;
             right: 10%;
         }
+        /* 
         .num img:first-child{
             margin-right: 10px;
             margin-top: 3px;
@@ -377,47 +380,58 @@
         .contact .email .env{
             margin-right: 10px;
             margin-bottom: 7px ; 
-        } 
+        }  */
+      
     }
     
     @media (min-width: 320px) and (max-width: 991px){
         footer{
             background-color: #000;
-            height: 19px;
+            height: 251px;
             width: 100%;
         }
         
         
         .foot-menu{
-            position: relative; 
-            /* padding: 50px 80px; */
+            position: block ; 
+            padding: 25px 40px;
         }
         
         
         .media{
-            margin-top: 24px;
+            margin-top: 10px;
+        }
+        .media img:first-child{
+            width: 15.38px;
+            height: 15.38px;
         }
         .media img:nth-child(2){
-            margin-left:16px;
+            margin-left:10px;
+            width: 14.91px;
+            height: 14.91px;
         }
         .media img:nth-child(3){
-            margin-left:16px;
+            margin-left:10px;
+            width: 16.31px;
+            height: 16.31px;
         }
         .media img:nth-child(4){
-            margin-left:16px;
+            margin-left:10px;
+            width: 15.84px;
+            height: 15.84px;
+        }
+        .copyright img{
+            width: 150px;
+            height: 14px;
         }
         .copyright{
-            position: absolute;
-            /* top: 340px; */
-        
+            margin-top: 50px;
         }
-        
         .contact{
-            position: absolute;
-            /* top: 50px; */
-            right: 10%;
+            margin-top: 40px;
         }
-        .num img:first-child{
+        /* 
+           .num img:first-child{
             margin-right: 10px;
             margin-top: 3px;
         }
@@ -427,7 +441,13 @@
         .contact .email .env{
             margin-right: 10px;
             margin-bottom: 7px ; 
-        }     
+        } */
+          
+        .logo{
+            width: 53.59px;
+            height: 31.69px;
+        }
+       
     }
     
     
