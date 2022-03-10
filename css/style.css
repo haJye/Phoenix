@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-<<<<<<< HEAD
 
 @media(min-width:1280px)
 {
@@ -147,12 +146,6 @@
         margin-left: 126px;
         width: 670px;
     }
-@media (min-width: 1026px) and (max-width: 1282px) {
-    .course:nth-child(9) {
-        display: none;
-    }
-}
-@media(min-width:1280px) {
     main .title {
         font-size: 55px;
         font-family: "Roboto Slab";
@@ -364,10 +357,6 @@
         color: #000;
         margin-left: 20px;
     }
-=======
-@media (min-width:992px) and (max-width:1279px) {
-
->>>>>>> Vons
     main .title {
         font-size: 32px;
         font-family: "Roboto Slab";
@@ -478,7 +467,6 @@
     main h2 {
         font-size: 26px;
         font-family: "Roboto Slab";
-<<<<<<< HEAD
     }
     #blue0font img{
         width: 225px;
@@ -575,11 +563,6 @@
     .article h1{
         font-size: 31px;
     }
-=======
-        margin-bottom: 35.66px;
-        margin-left: 34px;
-    }
->>>>>>> Vons
     .courses {
         display: flex;
         flex-direction: column;
@@ -632,9 +615,4 @@
     .course .course-inner .last-text p {
         margin: -3px 0 0 -1px;
     }
-<<<<<<< HEAD
 }
-=======
-
-}
->>>>>>> Vons
