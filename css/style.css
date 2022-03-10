@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
+@media (min-width: 1026px) and (max-width: 1282px) {
+    .course:nth-child(9) {
+        display: none;
+    }
+}
+
 @media(min-width:1280px)
 {
     body{
@@ -211,9 +217,7 @@
     .info_p1{
         display:flex;
         justify-content: space-between;
-        align-items:center;
-        
-    
+        align-items:center;git 
     }
     .info_text{
         
