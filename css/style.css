@@ -384,6 +384,13 @@
         width: 13px;
         height: 12px;
     }
+    .back-photo1{
+        position: absolute;
+        width: 158.69px;
+        height: 23.75px;
+        left: 533.41px;
+        top: 333.01px;
+    }
     main h1{
         font-size: 46px;
         line-height: 47px;
@@ -509,7 +516,7 @@
         color: #000;
         margin-left: 20px;
     }
-    main .title {
+    .title {
         font-size: 32px;
         font-family: "Roboto Slab";
         margin-bottom: 109px;
