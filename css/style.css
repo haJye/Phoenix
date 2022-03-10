@@ -358,8 +358,7 @@
     }
 }
 
-@media (min-width:992px) and (max-width:1279px) 
-    {   
+@media (min-width:992px) and (max-width:1279px) {  
     body{
         padding-left: 70px;
         padding-top: 22px;
@@ -641,6 +640,9 @@
 
 @media (min-width:320px) and (max-width:991px)
 {
+    .un-name{
+        padding-left: 35px;
+    }
     body{
         padding-top:36px;
         padding-left:35px;
