@@ -356,10 +356,6 @@
         font-size: 11px;
         line-height: 130%;
     }
-<<<<<<< HEAD
-}
-
-=======
     .rectangle22 {
         margin-top: 121px;
         width: 1440px;
@@ -392,7 +388,6 @@
     }
     .group21 p {
         width: 700px;
-        
         padding-left: 45px;
         padding-top: 40px;
         padding-right: 46px;
@@ -494,21 +489,21 @@
     }
     .four {
         font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 101.38%;
-padding-left: 122px;
-margin-top: 9px;
-width:294px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 101.38%;
+        padding-left: 122px;
+        margin-top: 9px;
+        width:294px;
     }
     .five {
         font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 101.38%;
-width: 322px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 101.38%;
+        width: 322px;
 
 
     }
@@ -522,7 +517,6 @@ width: 322px;
         padding-left: 122px;
     }
 }
->>>>>>> nJga
 @media (min-width:992px) and (max-width:1279px) {  
     body{
         padding-left: 70px;
@@ -799,19 +793,14 @@ width: 322px;
         font-size: 11px;
         line-height: 130%;
     }
-<<<<<<< HEAD
-=======
     .rectangle22 {
         margin-top: 53px;
         width: 834px;
         height: 451.75px;
         background-color: #efefef;
     }
-  
+}
 
-}
->>>>>>> nJga
-}
 
 
 
