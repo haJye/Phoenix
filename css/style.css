@@ -356,8 +356,168 @@
         font-size: 11px;
         line-height: 130%;
     }
-}
+    .rectangle22 {
+        margin-top: 121px;
+        width: 1440px;
+        height: 780px;
+        background-color: #efefef;
+        margin-bottom: 0px;
+    }
+    .rectangle22 h1 {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 101.38%;
+        width: 987px;
+        padding-top: 91px;
+        padding-left: 122px;
+        padding-right: 331px;
+        padding-bottom: 34px;
+    }
+    .group21 {
 
+        width: 791px;
+        height: 451px;
+        background-color: white;
+        border-radius: 30px;
+        margin-left: 126px;
+        margin-right: 523px;
+        margin-bottom:111px;
+        margin-top: 34px;
+    }
+    .group21 p {
+        width: 700px;
+        
+        padding-left: 45px;
+        padding-top: 40px;
+        padding-right: 46px;
+        padding-bottom: 10px;
+    }
+
+    .girl {
+        width:190px;
+        height: 169px;
+        padding-left: 26px;
+        padding-top: 10px;
+    }
+    .ekaterina {
+        display: flex;
+     
+    }
+    .ekaterina author {
+        position: relative;
+        top:60px;
+        left: 30px;
+        
+        width:353px;
+        height: 59px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 101.38%;
+    }
+    .fb {
+        width: 32px;
+        height:31px;
+        position: relative;
+        top:120px;
+        right: 325px;    
+
+}
+    .lblue {
+        background-color:  #9DC9C8;
+        width: 1440px;
+        height: 780px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .lblue h2 {
+        padding-top: 179px;
+        padding-left:122px;
+        padding-right: 410px;
+        
+        margin-top: 0px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 101.38%;
+        width: 908px;
+     
+    }
+    .one {
+        width: 170px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 101.38%;
+        padding-top: 54px;
+        padding-left: 122px;
+        padding-right: 1148px;
+        margin-bottom: 0px;
+    }
+    .two {
+        width:481px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 101.38%;
+        padding-left: 122px;
+        margin-top: 0px;
+    }
+    .double {
+        display: flex;
+    }
+    .double1 {
+        display: block;
+    }
+    .double2 {
+        display: block;
+    }
+    .three {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 101.38%;
+        width: 294px;
+        margin-top:155px;
+        padding-left: 122px;
+    }
+    .four {
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 101.38%;
+padding-left: 122px;
+margin-top: 9px;
+width:294px;
+    }
+    .five {
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 101.38%;
+width: 322px;
+
+
+    }
+    .six {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 101.38%;
+        width: 294px;
+        padding-left: 122px;
+    }
+}
 @media (min-width:992px) and (max-width:1279px) {  
     body{
         padding-left: 70px;
@@ -634,6 +794,15 @@
         font-size: 11px;
         line-height: 130%;
     }
+    .rectangle22 {
+        margin-top: 53px;
+        width: 834px;
+        height: 451.75px;
+        background-color: #efefef;
+    }
+  
+
+}
 }
 
 
