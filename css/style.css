@@ -397,7 +397,7 @@
     }
     .rectangle22 {
         margin-top: 121px;
-        width: 1440px;
+        width: 100%;
         height: 780px;
         background-color: #efefef;
         margin-bottom: 0px;
@@ -475,7 +475,7 @@
     }
     .lblue {
         background-color:  #9DC9C8;
-        width: 1440px;
+        width: 100%;
         height: 780px;
         margin-top: 0px;
         padding-top: 0px;
@@ -484,7 +484,6 @@
         padding-top: 179px;
         padding-left:122px;
         padding-right: 410px;
-        
         margin-top: 0px;
         font-family: 'Roboto Slab';
         font-style: normal;
@@ -928,7 +927,7 @@
     }
     .rectangle22 {
         background-color: #e5e5e5;
-        width: 834px;
+        width: 100%;
         height: 451.75px;
         
     }
@@ -996,13 +995,11 @@
         line-height: 150%;
     }
     .lblue {
-        width:834px;
+        width:100%;
         background-color: #9DC9C8;
         height: 452px;
     }
     .lblue h2 {
-
-
         padding-top: 103px;
         padding-left:70px;
         padding-right: 117px;
@@ -1012,7 +1009,6 @@
         font-weight: 700;
         font-size: 32px;
         line-height: 101.38%;
-       
     }
     .one {
         padding-left: 70px;
@@ -1030,7 +1026,6 @@
         font-weight: 400;
         font-size: 46px;
         line-height: 101.38%;
-
         width: 278px;
         padding-left: 70px;
         padding-top: 0px;
@@ -1132,6 +1127,9 @@
     .contact .email .env{
         margin-right: 10px;
         margin-bottom: 7px ; 
+    }
+    .un-name{
+        padding-left: 100px;
     }  
 }
 
@@ -1166,13 +1164,13 @@
         width: 127.68px;
         height: 19.1px;
         left: 215px;
-        top: 410px;
+        top: 359px;
     }
     .header-logo{
         padding-bottom: 47px;
     }
     main h1{
-        width: 75%;
+        min-width: 75%;
         font-family: 'Roboto slab';
         font-size: 37px;
         font-weight: 700;
@@ -1189,7 +1187,7 @@
         width: 141.66px;
         height: 165.89px;
         left: 201px;
-        top: 254px
+        top: 200px
     }
     main h2 {
         font-size: 26px;
@@ -1294,6 +1292,12 @@
     .article h1{
         font-size: 31px;
     }
+    .title{
+        font-size: 26px;
+        font-family: 'Roboto Slab';
+        margin-bottom: 35.66px;
+        margin-left: 34px;
+    }
     .courses {
         display: flex;
         flex-direction: column;
@@ -1348,7 +1352,7 @@
     }
     .rectangle22 {
         background-color: #e5e5e5;
-        width: 376px;
+        width: 100%;
         height: 423px;
         
     }
@@ -1419,7 +1423,7 @@
         padding-bottom: 21px;
     }
     .lblue {
-        width:376px;
+        width:100%;
         background-color: #9DC9C8;
         height: 364px;
 
@@ -1673,5 +1677,6 @@
         width: 53.59px;
         height: 31.69px;
     }
+
 }
 
