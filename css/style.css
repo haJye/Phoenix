@@ -318,7 +318,7 @@
         top: 50px;
         right: 10%;
     }
-    /* 
+    
     .num img:first-child{
         margin-right: 10px;
         margin-top: 3px;
@@ -329,7 +329,7 @@
     .contact .email .env{
         margin-right: 10px;
         margin-bottom: 7px ; 
-    } */
+    } 
   
     }
     @media (min-width:992px) and (max-width:1279px) {
@@ -369,7 +369,7 @@
             top: 50px;
             right: 10%;
         }
-        /* 
+        
         .num img:first-child{
             margin-right: 10px;
             margin-top: 3px;
@@ -380,7 +380,7 @@
         .contact .email .env{
             margin-right: 10px;
             margin-bottom: 7px ; 
-        }  */
+        }  
       
     }
     
@@ -425,23 +425,47 @@
             height: 14px;
         }
         .copyright{
-            margin-top: 50px;
+            margin-top: 30px;
         }
         .contact{
-            margin-top: 40px;
+            margin-top: 55px;
         }
-        /* 
-           .num img:first-child{
+        
+        .num img:first-child{
             margin-right: 10px;
             margin-top: 3px;
         }
+
+
+
+        .num img:first-child{
+            width: 15px;
+            height: 15px;
+        }
+        .num img:last-child{
+            width: 107.17px;
+            height: 18.64px;
+        }
+
+        .email img:first-child{
+            width: 15px;
+            height: 10px ;
+        }
+        .email img:last-child{
+            width: 125.35px;
+            height: 18.64px ;
+        }
+
+
+
         .email{
-            margin-top: 15px;
+             margin-top: 2px; 
+
         }
         .contact .email .env{
             margin-right: 10px;
-            margin-bottom: 7px ; 
-        } */
+            margin-bottom: 5px ; 
+        } 
           
         .logo{
             width: 53.59px;
