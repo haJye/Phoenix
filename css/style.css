@@ -397,7 +397,7 @@
     }
     .rectangle22 {
         margin-top: 121px;
-        width: 1440px;
+        width: 100%;
         height: 780px;
         background-color: #efefef;
         margin-bottom: 0px;
@@ -475,7 +475,7 @@
     }
     .lblue {
         background-color:  #9DC9C8;
-        width: 1440px;
+        width: 100%;
         height: 780px;
         margin-top: 0px;
         padding-top: 0px;
@@ -874,7 +874,7 @@
     }
     .rectangle22 {
         background-color: #e5e5e5;
-        width: 834px;
+        width: 100%;
         height: 451.75px;
         
     }
@@ -951,7 +951,7 @@
         line-height: 150%;
     }
     .lblue {
-        width:834px;
+        width:100%;
         background-color: #9DC9C8;
         height: 452px;
 
@@ -1259,7 +1259,7 @@
     }
     .rectangle22 {
         background-color: #e5e5e5;
-        width: 376px;
+        width: 100%;
         height: 423px;
         
     }
@@ -1330,7 +1330,7 @@
         padding-bottom: 21px;
     }
     .lblue {
-        width:376px;
+        width:100%;
         background-color: #9DC9C8;
         height: 364px;
 
