@@ -446,7 +446,6 @@
         position: relative;
         top:60px;
         left: 30px;
-        
         width:353px;
         height: 59px;
         font-family: 'Roboto Slab';
@@ -462,7 +461,7 @@
         top:120px;
         right: 325px;    
 
-}
+    }
     .lblue {
         background-color:  #9DC9C8;
         width: 1440px;
