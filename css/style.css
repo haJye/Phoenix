@@ -273,17 +273,28 @@
     }
     
     .info_images{
-        display: flex;
-        flex-direction: column;
-    }
-    #info_img1{
-        width: 314px;
-        height: 315px;
+        position: relative;
+        
         
     }
+    #info_img1{
+        position: relative;
+        width: 314px;
+        height: 315px;
+        left:25px;
+        top: 13px;
+       
+    }
     #info_img2{
+        position:absolute;
         width: 366px;
         height: 59px;
+        left: 0;
+        top: 300px;
+        z-index: -1;
+        
+
+        
     }
     
     .info_p2{
@@ -293,16 +304,23 @@
         align-items: center;
     }
     .info_p2_images{
-        display: flex;
-        flex-direction: column;
+        position: relative;
     }
     #info_img3{
+        position: relative;
         width: 232px;
         height: 203px;
+        left: 0;
+        right: 3px;
+        top: 0;
     }
     #info_img4{
+        position: absolute;
         width: 189px;
         height: 32px;
+        top:185px;
+        left:12%;
+        z-index: -1;
     }
     
     div.info_time{
@@ -589,17 +607,22 @@
         line-height: 150%;
     }
     .info_images{
-        display: flex;
-        flex-direction: column;
+        position: relative;
     }
     #info_img1{
+        position: relative;
         width: 181.86px;
         height: 182.44px;
+        left:8%;
         
     }
     #info_img2{
+        position:absolute;
         width: 211.98px;
         height: 34.17px;
+        left: 0;
+        top:170px;
+        z-index: -1;
     }
     .info_p2{
         margin-top:5vh;
@@ -608,16 +631,23 @@
         align-items: center;
     }
     .info_p2_images{
-        display: flex;
-        flex-direction: column;
+        position: relative;
     }
     #info_img3{
+        position: relative;
         width: 134.37px;
         height: 117.57px;
+        left: 0;
+        top: 0;
     }
     #info_img4{
+        position: absolute;
         width: 109.46px;
         height: 18.53px;
+        z-index: -1;
+        top:110px;
+        left:10%;
+
     }
 
     .info_p2 h3{
@@ -943,17 +973,24 @@
         line-height: 150%;
     }
     .info_images{
-        display: flex;
-        flex-direction: column;
+        position: relative;
+        left:10%;
     }
     #info_img1{
+        position: relative;
         width: 146.32px;
         height: 146.78px;
         margin-top: 5vh;
+        left: 30px;
     }
     #info_img2{
+        position: absolute;
         width: 211.98px;
         height: 34.17px;
+        top:165px;
+        left: 0;
+        z-index: -1;
+        
     }
 
 
@@ -963,11 +1000,15 @@
     .info_p2{
         display: flex;
         flex-wrap: wrap;
+        margin-top: 5vh;
         
         
     }
     .info_time{
         align-items: flex-start;
+        width: 40%;
+        margin-bottom: 3vh;
+    
     }
     .info_time h3{
         width: 86px;
