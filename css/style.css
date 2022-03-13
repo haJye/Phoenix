@@ -592,7 +592,15 @@ body{
         top: 340px;
     
     }
-    
+    .contact p{
+        color: white;
+    }
+    .num{
+        display: flex;
+    }
+    .email{
+        display: flex;
+    }
     .contact{
         position: absolute;
         top: 50px;
@@ -1118,13 +1126,20 @@ body{
         top: 50px;
         right: 10%;
     }
-    
+    .contact p{
+        color:white;
+    }
+    .num {
+        display: flex;
+        padding-bottom: 10px;
+    }
+    .email{
+        display: flex;
+        margin-top: 15px;
+    }
     .num img:first-child{
         margin-right: 10px;
         margin-top: 3px;
-    }
-    .email{
-        margin-top: 15px;
     }
     .contact .email .env{
         margin-right: 10px;
