@@ -1593,7 +1593,7 @@ body{
     }
     footer{
         background-color: #000;
-        height: 251px;
+        height: 280px;
         width: 100%;
     }
     
@@ -1603,7 +1603,14 @@ body{
         padding: 25px 40px 0px;
     }
     
-    
+    .num{
+        display: flex;
+        padding-bottom: 15px;
+    }
+    .email{
+        padding-top: 10px;
+        display: flex;
+    }
     .media{
         margin-top: 10px;
     }
@@ -1636,7 +1643,10 @@ body{
     .contact{
         margin-top: 55px;
     }
-    
+    .contact p{
+        color: white;
+        margin: 0px;
+    }
     .num img:first-child{
         margin-right: 10px;
         margin-top: 3px;
