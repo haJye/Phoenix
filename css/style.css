@@ -17,6 +17,10 @@
 
 
 
+body{
+    margin:0;
+    padding: 0;
+}
 @media(min-width:1280px)
 {
     body{
@@ -26,6 +30,7 @@
     }
     .un-name{
         padding-left: 121px;
+        padding-top:50px;
 
     }
     .back-photo1{
@@ -99,7 +104,7 @@
         font-style: normal;
         font-weight: bold;
         font-size: 28px;
-        margin-bottom: -5px;
+        margin-bottom: 5px;
         color: #1E4681;
     }
     .menu .m2 h3{
@@ -107,7 +112,7 @@
         font-style: normal;
         font-weight: bold;
         font-size: 28px;
-        margin-bottom: -5px;
+        margin-bottom: 5px;
         color: #1E4681;
     }
     .menu .m3 h3{
@@ -115,7 +120,7 @@
         font-style: normal;
         font-weight: bold;
         font-size: 28px;
-        margin-bottom: -5px;
+        margin-bottom: 5px;
         color: #1E4681;
     }
     .menu .m1{
@@ -171,6 +176,7 @@
         color: #000;
         margin-left: 126px;
         width: 670px;
+        margin-bottom: 230px;
     }
     .title {
         font-size: 55px;
@@ -228,31 +234,12 @@
     .course .course-inner .last-text p {
         margin: 8px 0 0 -1px;
     }
-    .info html, body, div, span, applet, object, iframe,
-    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-    a, abbr, acronym, address, big, cite, code,
-    del, dfn, em, img, ins, kbd, q, s, samp,
-    small, strike, strong, sub, sup, tt, var,
-    b, u, i, center,
-    dl, dt, dd, ol, ul, li,
-    fieldset, form, label, legend,
-    table, caption, tbody, tfoot, thead, tr, th, td,
-    article, aside, canvas, details, embed, 
-    figure, figcaption, footer, header, hgroup, 
-    menu, nav, output, ruby, section, summary,
-    time, mark, audio, video {
+    .info {
       margin: 0;
       padding: 0;
-      font-size: 100%;
       vertical-align: baseline;
-      font-family:serif;
-  
-  }
-    .info{
-        width: 80%;
-        margin: 5% 10%
-
-        
+      width: 80%;
+      margin: 5% 10%;
     }
     .info_p1{
         display:flex;
@@ -266,7 +253,7 @@
     }
     .info_text h2{
         color: #000000;
-        font-family: Roboto Slab;
+        font-family: 'Roboto Slab';
         font-style: normal;
         font-weight: 700;
         font-size: 55px;
@@ -276,27 +263,33 @@
     }
     .info_text p{
         color: #000000;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 24px;
-        font-weight: 400;
         line-height: 150%;
-        width: 662px;
         height: 374px;
+        font-family: 'Roboto';
+        font-size: 24px;
     }
     
     .info_images{
-        display: flex;
-        flex-direction: column;
+        position: relative;  
     }
     #info_img1{
+        position: relative;
         width: 314px;
         height: 315px;
+        left:25px;
+        top: 13px;
+       
     }
     #info_img2{
+        position:absolute;
         width: 366px;
         height: 59px;
+        left: 0;
+        top: 300px;
+        z-index: -1;
+        
+
+        
     }
     
     .info_p2{
@@ -306,16 +299,23 @@
         align-items: center;
     }
     .info_p2_images{
-        display: flex;
-        flex-direction: column;
+        position: relative;
     }
     #info_img3{
+        position: relative;
         width: 232px;
         height: 203px;
+        left: 0;
+        right: 3px;
+        top: 0;
     }
     #info_img4{
+        position: absolute;
         width: 189px;
         height: 32px;
+        top:185px;
+        left:12%;
+        z-index: -1;
     }
     
     div.info_time{
@@ -325,7 +325,7 @@
         margin-bottom: 2vh;
     }
     .info_time h3{
-        font-family: Roboto;
+        font-family: 'Roboto';
         font-style: normal;
         font-weight: bold;
         font-size: 25px;
@@ -336,7 +336,7 @@
     }
     .info_time p{
         color: #000000;
-        font-family: Roboto;
+        font-family: 'Roboto';
         font-style: normal;
         font-weight: normal;
         font-size: 18px;
@@ -353,9 +353,6 @@
         align-items: center;
 
     }
-    .info_text{
-        width: 50;
-    }
     .info_text h3{
         font-size: 32px;
         line-height: 101.38%;
@@ -363,9 +360,7 @@
         height: 53.86px;
     }
     .info_text p{
-        width: 383.41px;
-        height: 216.61px;
-        font-size: 14px;
+        font-size: 24px;
         line-height: 150%;
     }
     .info_p1 img{
@@ -476,7 +471,7 @@
     .lblue {
         background-color:  #9DC9C8;
         width: 100%;
-        height: 780px;
+        height: 900px;
         margin-top: 0px;
         padding-top: 0px;
     }
@@ -490,11 +485,10 @@
         font-weight: 700;
         font-size: 55px;
         line-height: 101.38%;
-        width: 908px;
      
     }
     .one {
-        width: 170px;
+        
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -537,10 +531,8 @@
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 25px;
         line-height: 101.38%;
-        padding-left: 122px;
-        margin-top: 9px;
         width:294px;
     }
     .six {
@@ -550,7 +542,7 @@
     }
     .double2{
         display: flex;
-
+        
     }
     .five {
         font-family: 'Roboto';
@@ -561,7 +553,6 @@
         width: 294px;
         padding-left: 122px;
         padding-top:9px;
-
     }
     .six {
         padding-left: 70px;
@@ -649,7 +640,7 @@
         position: absolute;
         width: 158.69px;
         height: 23.75px;
-        left: 533.41px;
+        left: 573.41px;
         top: 333.01px;
     }
     main h1{
@@ -669,7 +660,7 @@
     .main-photo img{
         position: absolute;
         top: 139px;
-        left: 515px;
+        left: 555px;
         width: 176px;
         height: 207px;
     }
@@ -836,15 +827,15 @@
     }
     
     .info html, body, div, span, applet, object, iframe,
-    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    p, blockquote, pre,
     a, abbr, acronym, address, big, cite, code,
     del, dfn, em, img, ins, kbd, q, s, samp,
     small, strike, strong, sub, sup, tt, var,
     b, u, i, center,
-    dl, dt, dd, ol, ul, li,
+    dl, dt, dd,
     fieldset, form, label, legend,
     table, caption, tbody, tfoot, thead, tr, th, td,
-    article, aside, canvas, details, embed, 
+     aside, canvas, details, embed, 
     figure, figcaption, footer, header, hgroup, 
     menu, nav, output, ruby, section, summary,
     time, mark, audio, video {
@@ -852,13 +843,11 @@
       padding: 0;
       font-size: 100%;
       vertical-align: baseline;
-      font-family:serif;
   
   }
     .info{
         width: 80%;
-        margin: 5% 10%
-
+        margin: 5% 10%;
     }
     .info_p1{
         display: flex;
@@ -882,17 +871,22 @@
         line-height: 150%;
     }
     .info_images{
-        display: flex;
-        flex-direction: column;
+        position: relative;
     }
     #info_img1{
+        position: relative;
         width: 181.86px;
         height: 182.44px;
+        left:8%;
         
     }
     #info_img2{
+        position:absolute;
         width: 211.98px;
         height: 34.17px;
+        left: 0;
+        top:170px;
+        z-index: -1;
     }
     .info_p2{
         margin-top:5vh;
@@ -901,16 +895,23 @@
         align-items: center;
     }
     .info_p2_images{
-        display: flex;
-        flex-direction: column;
+        position: relative;
     }
     #info_img3{
+        position: relative;
         width: 134.37px;
         height: 117.57px;
+        left: 0;
+        top: 0;
     }
     #info_img4{
+        position: absolute;
         width: 109.46px;
         height: 18.53px;
+        z-index: -1;
+        top:110px;
+        left:10%;
+
     }
 
     .info_p2 h3{
@@ -934,7 +935,7 @@
       
     .rectangle22 h1 {
         width: 571.64px;
-        font-family: Roboto Slab;
+        font-family: 'Roboto Slab';
         font-style: normal;
         font-weight: 700;
         font-size: 32px;
@@ -1009,6 +1010,7 @@
         font-weight: 700;
         font-size: 32px;
         line-height: 101.38%;
+        margin: 0 0 0 0 ;
     }
     .one {
         padding-left: 70px;
@@ -1130,17 +1132,18 @@
     }
     .un-name{
         padding-left: 100px;
+        padding-top:50px;
     }  
 }
 
 @media (min-width:320px) and (max-width:991px)
 {
+
     .un-name{
         padding-left: 35px;
     }
     body{
         padding-top:36px;
-        padding-left:35px;
         font-family: 'Roboto';
     }
     .header-logo img{
@@ -1164,7 +1167,7 @@
         width: 127.68px;
         height: 19.1px;
         left: 215px;
-        top: 359px;
+        top: 400px;
     }
     .header-logo{
         padding-bottom: 47px;
@@ -1187,7 +1190,7 @@
         width: 141.66px;
         height: 165.89px;
         left: 201px;
-        top: 200px
+        top: 245px
     }
     main h2 {
         font-size: 26px;
@@ -1201,12 +1204,13 @@
         width: 225px;
         height: 94px;
     }
-    body .heading{
+    .heading{
         height: 43px;
     }
-    body .container {
+    .container {
         display: flex;
         flex-direction: column;
+        margin-left: 35px;
     }
     .container .heading h1{
         font-size: 31px;
@@ -1283,11 +1287,13 @@
     }
     .article{
         margin-top:100px;
-        width: 420px;
     }
     .mainart ul{
         padding-left: 20px;
         font-size: 15px ;
+    }
+    .article ul li{
+        word-wrap: break-word;
     }
     .article h1{
         font-size: 31px;
@@ -1369,7 +1375,7 @@
   
     .rectangle22 h1 {
         width:257px;
-        font-family: Roboto Slab;
+        font-family: 'Roboto Slab';
         font-style: normal;
         font-weight: bold;
         font-size: 26px;
@@ -1385,7 +1391,7 @@
         position: relative;
         top: 20px;
         left: 13.63px;
-        font-family: Roboto Slab;
+        font-family: 'Roboto Slab';
         font-size: 14px;
         font-style: normal;
         font-weight: 800;
@@ -1400,8 +1406,8 @@
         top: 0px;
         -left: 21px;
 
-   }
-     .fb {
+    }
+    .fb {
         width:14.91px;
         height:17.2px;
         position: relative;
@@ -1425,8 +1431,7 @@
     .lblue {
         width:100%;
         background-color: #9DC9C8;
-        height: 364px;
-
+        height: 363px;
     }
     .lblue h2 {
         padding-top: 62px;
@@ -1438,7 +1443,7 @@
         font-weight: 700;
         font-size: 26px;
         line-height: 101.38%;
-       
+        margin: 0 0 0 0;
     }
     .one {
         padding-left: 35px;
@@ -1449,6 +1454,7 @@
         font-weight: 400;
         font-size: 12px;
         line-height: 101.38%;
+        margin-bottom: -35px;
     }
     .two {
         font-family: 'Roboto';
@@ -1472,12 +1478,12 @@
         line-height: 101.38%;
         width: 137px;
         padding-left: 35px;
-        padding-top:35px;
+        padding-top:0px;
 
     }
     .four {
         padding-left: 30px;
-        padding-top:35px;
+        padding-top:0px;
         width:151px;
         font-family: 'Roboto';
         font-style: normal;
@@ -1511,26 +1517,7 @@
         font-size: 10px;
         line-height: 101.38%;
     }
-    .info html, body, div, span, applet, object, iframe,
-    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-    a, abbr, acronym, address, big, cite, code,
-    del, dfn, em, img, ins, kbd, q, s, samp,
-    small, strike, strong, sub, sup, tt, var,
-    b, u, i, center,
-    dl, dt, dd, ol, ul, li,
-    fieldset, form, label, legend,
-    table, caption, tbody, tfoot, thead, tr, th, td,
-    article, aside, canvas, details, embed, 
-    figure, figcaption, footer, header, hgroup, 
-    menu, nav, output, ruby, section, summary,
-    time, mark, audio, video {
-      margin: 0;
-      padding: 0;
-      font-size: 100%;
-      vertical-align: baseline;
-      font-family:serif;
-  
-  }
+    
     .info{
         width:80%;
         margin: 5% 10%
@@ -1555,17 +1542,24 @@
         line-height: 150%;
     }
     .info_images{
-        display: flex;
-        flex-direction: column;
+        position: relative;
+        left:10%;
     }
     #info_img1{
+        position: relative;
         width: 146.32px;
         height: 146.78px;
         margin-top: 5vh;
+        left: 30px;
     }
     #info_img2{
+        position: absolute;
         width: 211.98px;
         height: 34.17px;
+        top:165px;
+        left: 0;
+        z-index: -1;
+        
     }
 
 
@@ -1574,10 +1568,16 @@
     }
     .info_p2{
         display: flex;
-        flex-wrap: wrap;     
+        flex-wrap: wrap;
+        margin-top: 5vh;
+        
+        
     }
     .info_time{
         align-items: flex-start;
+        width: 40%;
+        margin-bottom: 3vh;
+    
     }
     .info_time h3{
         width: 86px;
@@ -1600,7 +1600,7 @@
     
     .foot-menu{
         position: block ; 
-        padding: 25px 40px;
+        padding: 25px 40px 0px;
     }
     
     
@@ -1641,9 +1641,6 @@
         margin-right: 10px;
         margin-top: 3px;
     }
-
-
-
     .num img:first-child{
         width: 15px;
         height: 15px;
@@ -1661,9 +1658,6 @@
         width: 125.35px;
         height: 18.64px ;
     }
-
-
-
     .email{
          margin-top: 2px; 
 
