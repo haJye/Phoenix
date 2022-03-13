@@ -11,7 +11,7 @@
 
 @media (min-width: 993px) and (max-width: 1110px) {
     .course:nth-child(9) {
-        display: block;
+        display: none;
     }
 }
 
@@ -403,7 +403,6 @@ body{
         font-weight: 700;
         font-size: 55px;
         line-height: 101.38%;
-        width: 987px;
         padding-top: 91px;
         padding-left: 122px;
         padding-right: 331px;
