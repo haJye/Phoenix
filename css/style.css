@@ -608,14 +608,18 @@ body{
     
     .num img:first-child{
         margin-right: 10px;
-        margin-top: 3px;
+        margin-top: 10px;
+        width: 27px;
+        height: 27px;
     }
     .email{
         margin-top: 15px;
     }
     .contact .email .env{
         margin-right: 10px;
-        margin-bottom: 7px ; 
+        margin-top: 15px;
+        width: 27px;
+        height: 18px;
     } 
 }
 @media (min-width:992px) and (max-width:1279px) {  
